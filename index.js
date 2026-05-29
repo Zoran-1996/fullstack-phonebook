@@ -1,6 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
-const PORT = 3001;
+const PORT = 3002;
 const app = express();
 
 app.use(morgan("tiny"));
